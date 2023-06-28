@@ -381,7 +381,7 @@ body .second_slider .content1_text .more_text {
 }
 body .second_slider .content2 {
   display: flex;
-  background-image: url(/images/image2.png);
+  background-image: url(images/image2.png);
   max-width: 1462px;
   width: 100%;
   height: 985px;
