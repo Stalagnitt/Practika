@@ -20,11 +20,17 @@
          
         
         .logo{
+
             &_name{
                 color: #fff;
                 font-size: 24px;
                 font-weight: 700;
                 letter-spacing: 0.24px;
+
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                    color: #FBD784;               
+                }
             }
             margin-left: 85px;
 

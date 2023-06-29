@@ -203,7 +203,6 @@ body{
             column-gap: 232px;
             justify-content: center;
             align-items: center;
-            
 
             @media (max-width: 1400px) {
                 column-gap: 120px;
@@ -331,10 +330,15 @@ body{
                         color: #FFC178;
                         font-size: 18px;
                         
+                        a{
+                            transition: all 0.3s ease-in-out;
+                        &:hover {
+                         color: #fff;               
+                        }
+                        }
                     }
                 }
             }
-            
         }
 
         .content2{
@@ -354,13 +358,14 @@ body{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                padding: 35px;
 
                 &_left{
-                    padding: 31px;
+                    cursor: pointer;
                 }
 
-                &_right{
-                    padding: 31px;
+                &_right{  
+                    cursor: pointer;
                 }
             }
 
@@ -382,6 +387,10 @@ body{
                         margin: 5% 0;
                         background-color: #FFC178;
                         height: 2px;
+
+                        @media (max-width: $tablet){
+                            width: 50px;
+                        }
                     }
     
                     &_text{
@@ -454,6 +463,12 @@ body{
                         color: #FFC178;
                         font-size: 18px;
                         
+                        a{
+                            transition: all 0.3s ease-in-out;
+                            &:hover {
+                                 color: #fff;               
+                            }
+                        }
                     }
                 }
             }
@@ -530,6 +545,12 @@ body{
                     
                     &_text{
                         color: #FFC178;
+                        a{
+                            transition: all 0.3s ease-in-out;
+                            &:hover {
+                                 color: #fff;               
+                            }
+                        }
                     }
                 }
             }
